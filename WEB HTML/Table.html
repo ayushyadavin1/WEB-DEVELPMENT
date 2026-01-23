@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables In Html</title>
+</head>
+<body>
+    <!-- WITHOUT BORDER with head and body-->
+    <table>
+        <caption>Food Menu</caption>
+        <thead></thead>
+        <tr>
+            <th>Name</th>
+            <th>prise</th>
+            <th>place</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Samosa</td>
+            <td>10</td>
+            <td>Jaunpur</td>
+        </tr>
+         <tr>
+            <td>Apple</td>
+            <td>100</td>
+            <td>Varansi</td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- With Border -->
+    <table border="red">
+        <caption>Food Menu</caption>
+        <tr>
+            <th>Name</th>
+            <th>prise</th>
+            <th>place</th>
+        </tr>
+        <tr>
+            <td>Samosa</td>
+            <td>10</td>
+            <td>Jaunpur</td>
+        </tr>
+         <tr>
+            <td>Apple</td>
+            <td>100</td>
+            <td>Varansi</td>
+        </tr>
+    </table>
+    <!-- Using callspan and row span attrivute -->
+     <table border="BLACK">
+        <caption>FOOD MENU </caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Iteam</th>
+                <th colspan="2">prise</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>frooti</td>
+            <td>10</td>
+            <td>0.14</td>
+        </tr>
+         <tr>
+            <td>samosha</td>
+            <td>20</td>
+            <td>0.15</td>
+        </tr>
+         <tr>
+            <td>chips</td>
+            <td>54</td>
+            <td>0.54</td>
+        </tr>
+     </table>
+     <!--  -->
+    <table border="black">
+        <caption> A test Table with merged call</caption>
+        <thead>
+           <tr>
+            <th rowspan="2"></th>
+           </tr>
+           <tr>
+            <th rowspan="2">Average</th>
+           </tr>
+           <tr>
+            <th rowspan="2"></th>
+           </tr>
+           
+        </thead>
+    </table>
+</body>
+</html>
