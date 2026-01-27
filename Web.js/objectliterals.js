@@ -34,5 +34,5 @@ let twitter ={
 //array(3): ['hello', 'world', 'javascript']
 
 
-post["content"]="HELLO AYUSH BHAIYA KAISE HO , AAPKA DIN KAISE GAYA ";
+post["content"]="HELLO AYUSH BHAIYA KAISE HO  ";
 //there is the resons of doing this because of in object we use sqare braket to achieve the key valer from the whole object in a quated string.
