@@ -53,3 +53,30 @@ rollDice();
 // this is used to make a dice which can give from 0 to 6 number 
 // in which two math object are used 1=math.floor is helps to remove decimal 
 // from a number and another is math.random which is used to generate a random number 
+
+
+
+
+//now let us see the process of a colculation of average of three number 
+
+function clcavg(a,b,c) {
+    let avg=(a+b+c)/3;
+    console.log(avg);
+    
+}
+clcavg(2,3,5);
+//output
+//
+
+
+// let us see how we can print a multiplication table in a funstion 
+ 
+function printtable(n){
+    for(let i=n;i<=n*10;i+=n){
+        console.log(i);
+    }
+
+}
+printtable(5);
+//output
+//it will print the table of the given number 
