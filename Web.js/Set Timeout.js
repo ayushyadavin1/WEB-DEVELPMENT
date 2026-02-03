@@ -11,4 +11,5 @@ console.log("welcome to the vbspu")
 let id =setInterval(()=>{
     console.log("Ayush yadav");
 },2000);
+
 // clearInterval(id); used this when you want to stop the setinterval for repeating the value again and again 
