@@ -1,8 +1,2 @@
-const ayushdetails={
-    name:"Ayush yadav",
-    age:21,
-    college:"VBSPU",
-    city:"jaunpur",
-    Stream:"computer science"
 
-};
+[2,4,6].every((el)=>el%2==0);
