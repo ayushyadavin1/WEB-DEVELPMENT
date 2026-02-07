@@ -8,3 +8,4 @@ function concat(str){
     }
     return result;
 }
+gggg
