@@ -1,0 +1,14 @@
+div{
+    width: 300px;
+    height: 150px;
+    background-color: green;
+    margin: auto;;
+
+}
+ul{
+    background-color: red;
+
+}
+li{
+    background-color: yellow;
+}

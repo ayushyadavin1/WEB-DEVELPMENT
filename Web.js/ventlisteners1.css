@@ -1,0 +1,10 @@
+div{
+    width: 100px;
+    height: 120px;
+    border: solid red 2px;
+    margin: auto;
+    background-color: yello;
+}
+p{
+    text-align: center;
+}
